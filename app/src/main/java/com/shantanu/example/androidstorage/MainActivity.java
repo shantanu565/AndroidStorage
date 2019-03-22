@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         }else {
             Toast.makeText(this,"failed",Toast.LENGTH_SHORT).show();
+            edtUsername.setText("");
 
         }
 
@@ -64,9 +65,10 @@ public class MainActivity extends AppCompatActivity {
         }else {
             Toast.makeText(this,"Status Logout",Toast.LENGTH_SHORT).show();
             edtUsername.setText("");
+            return 0;
 
         }
-    return 0;
+
     }
 
     public void addsampledata(){

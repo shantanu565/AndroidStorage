@@ -40,6 +40,10 @@ public class HomeScreen extends AppCompatActivity {
                 SharedPreferences.Editor ed=sp2.edit();
                 ed.clear();
                 ed.apply();
+                ed.commit();
+                Intent intent=new Intent(HomeScreen.this,MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 finish();
             }
         });
