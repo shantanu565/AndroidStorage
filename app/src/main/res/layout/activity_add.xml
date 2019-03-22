@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc4477"
+    android:padding="8dp"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/edt_addName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/edt_addAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/edt_addPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+
+</LinearLayout>
